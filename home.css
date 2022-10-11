@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto',sans-serif;
+}
+.wallpaper
+{
+	width: 100%;
+	height: 100vh;
+	background: url(wale.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+ /* .wallpaper is a one class in class
+ width and height is  use 100 px i.e meaning is background image is disply on the full dispalu
+ and "vh" is same is a % and px
+ position of the image is center
+  */
+.navbar{
+	height: 28%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 5%;
+	margin-left: 3%;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 5%;
+	cursor: pointer;
+
+}
+
+h1{
+	margin-top: 14%;
+	padding-left: 10%;
+	font-size: 38px;
+
+}
+row ul li{
+	font-size: 40%;
+	cursor: pointer;
+}
+p{
+	font-size: 20px;
+
+}
+.explore{
+	font-size: 30px	;
+	cursor: pointer;
+	margin-left: 6%;
+}
+button{
+	font-size: 20px;
+	margin-left: 85px;
+	border: 10px;
+	border-radius: 20px;
+	margin-top: 15px;
+	cursor: pointer;
+	width: 180px;
+	height: 30px;
+}
+.card1{
+	margin-left: 57%;
+	margin-top: -23%;
+	background: url(lonawala.jpg);
+	width:18%;
+	height: 30vh;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 1s;
+}
+.card1:hover{
+	transform: translate(5px);
+}
+h3{
+	color: pink;
+	font-size: 30px;
+}
+.card2{
+	margin-left: 77%;
+	margin-top: -14%;
+	background: url(jaislmer.jpg);
+	width:18%;
+	height: 30vh;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 1s;
+}
+.card2:hover{
+	transform: translate(5px);
+}
+.card3{
+	margin-left: 57%;
+	margin-top: 3%;
+	background: url(ladkh.jpg);
+	width:18%;
+	height: 30vh;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 1s;
+}
+.card3:hover{
+	transform: translate(5px);
+}
+.card4{
+	margin-left: 77%;
+	margin-top: -13.7%;
+	background: url(kerla.jpg);
+	width:18%;
+	height: 30vh;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 1s;
+}
+.card4:hover{
+	transform: translate(5px);
+}
+
+
+
+/* FOOTER CSS */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+
+
+
